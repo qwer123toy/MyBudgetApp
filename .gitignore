@@ -1,0 +1,83 @@
+# Android 빌드 파일
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# IntelliJ
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/deploymentTargetDropDown.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# APK 파일들
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+
+# 설계문서 제외
+MyBudgetApp_설계문서_상세버전.md
+*설계문서*
+*design*
+*Design*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 임시 파일들
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# 개인 정보 파일들
+*.bak
+*.orig 

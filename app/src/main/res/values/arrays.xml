@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 지출 카테고리 -->
+    <string-array name="expense_categories">
+        <item>식비</item>
+        <item>교통비</item>
+        <item>쇼핑</item>
+        <item>의료비</item>
+        <item>오락</item>
+        <item>공과금</item>
+        <item>교육</item>
+        <item>기타</item>
+    </string-array>
+    
+    <!-- 수입 카테고리 -->
+    <string-array name="income_categories">
+        <item>급여</item>
+        <item>용돈</item>
+        <item>투자</item>
+        <item>사업</item>
+        <item>기타</item>
+    </string-array>
+    
+    <!-- 거래 타입 -->
+    <string-array name="transaction_types">
+        <item>지출</item>
+        <item>수입</item>
+    </string-array>
+    
+    <!-- 전체 카테고리 (단순화) -->
+    <string-array name="categories">
+        <item>🍽️ 식비</item>
+        <item>🚗 교통비</item>
+        <item>🛒 쇼핑</item>
+        <item>💊 의료비</item>
+        <item>🎮 오락</item>
+        <item>💡 공과금</item>
+        <item>📚 교육</item>
+        <item>💰 급여</item>
+        <item>💝 용돈</item>
+        <item>📈 투자</item>
+        <item>🏢 사업</item>
+        <item>❓ 기타</item>
+    </string-array>
+</resources> 

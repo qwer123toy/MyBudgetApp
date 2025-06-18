@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/cute_card_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- 날짜와 금액 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/tv_transaction_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2024-01-01"
+                android:textSize="12sp"
+                android:textColor="@color/cute_hint" />
+
+            <TextView
+                android:id="@+id/tv_transaction_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+15,000원"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/income_color" />
+
+        </LinearLayout>
+
+        <!-- 항목명 -->
+        <TextView
+            android:id="@+id/tv_transaction_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💰 급여"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/cute_text"
+            android:layout_marginBottom="4dp" />
+
+        <!-- 카테고리 -->
+        <TextView
+            android:id="@+id/tv_transaction_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💰 급여"
+            android:textSize="14sp"
+            android:textColor="@color/cute_primary"
+            android:layout_marginBottom="4dp" />
+
+        <!-- 태그 (고정지출/필수항목) -->
+        <TextView
+            android:id="@+id/tv_transaction_tags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="12sp"
+            android:textColor="@color/cute_hint"
+            android:layout_marginBottom="4dp" />
+
+        <!-- 메모 -->
+        <TextView
+            android:id="@+id/tv_transaction_memo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="메모 없음"
+            android:textSize="12sp"
+            android:textColor="@color/cute_hint"
+            android:maxLines="2"
+            android:ellipsize="end" />
+
+        <!-- 힌트 텍스트 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💡 터치: 수정 / 길게 누르기: 삭제"
+            android:textSize="10sp"
+            android:textColor="@color/cute_hint"
+            android:gravity="end"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView> 

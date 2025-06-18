@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 날짜 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📅 날짜"
+            android:textSize="14sp"
+            android:textColor="@color/cute_text"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/et_edit_date"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/cute_edit_text_bg"
+            android:hint="2024-01-01"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="@color/cute_text"
+            android:textColorHint="@color/cute_hint"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 타입 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💰 타입"
+            android:textSize="14sp"
+            android:textColor="@color/cute_text"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spinner_edit_type"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/cute_spinner_bg"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 항목명 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📝 항목명"
+            android:textSize="14sp"
+            android:textColor="@color/cute_text"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/et_edit_item"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/cute_edit_text_bg"
+            android:hint="예: 점심식사"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="@color/cute_text"
+            android:textColorHint="@color/cute_hint"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 금액 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💸 금액"
+            android:textSize="14sp"
+            android:textColor="@color/cute_text"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/et_edit_amount"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/cute_edit_text_bg"
+            android:hint="예: 15000"
+            android:inputType="number"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="@color/cute_text"
+            android:textColorHint="@color/cute_hint"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 카테고리 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🏷️ 카테고리"
+            android:textSize="14sp"
+            android:textColor="@color/cute_text"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spinner_edit_category"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/cute_spinner_bg"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 옵션 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⚙️ 옵션"
+            android:textSize="14sp"
+            android:textColor="@color/cute_text"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="🔄 고정지출"
+                android:textSize="14sp"
+                android:textColor="@color/cute_text" />
+
+            <Switch
+                android:id="@+id/switch_edit_fixed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="⭐ 필수항목"
+                android:textSize="14sp"
+                android:textColor="@color/cute_text" />
+
+            <Switch
+                android:id="@+id/switch_edit_necessary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <!-- 메모 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📋 메모"
+            android:textSize="14sp"
+            android:textColor="@color/cute_text"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/et_edit_memo"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/cute_edit_text_bg"
+            android:hint="메모를 입력하세요 (선택사항)"
+            android:gravity="top"
+            android:padding="12dp"
+            android:textSize="14sp"
+            android:textColor="@color/cute_text"
+            android:textColorHint="@color/cute_hint"
+            android:maxLines="3" />
+
+    </LinearLayout>
+
+</ScrollView> 

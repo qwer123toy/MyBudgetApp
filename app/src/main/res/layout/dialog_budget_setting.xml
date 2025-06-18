@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="💰 예산 금액"
+        android:textSize="14sp"
+        android:textColor="@color/cute_text"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/et_budget_amount"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/cute_edit_text_bg"
+        android:hint="예: 1000000"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:textColor="@color/cute_text"
+        android:textColorHint="@color/cute_hint" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="💡 팁: 예산을 설정하면 통계에서 남은 예산과 초과 여부를 확인할 수 있어요!"
+        android:textSize="12sp"
+        android:textColor="@color/cute_hint"
+        android:layout_marginTop="8dp"
+        android:lineSpacingExtra="2dp" />
+
+</LinearLayout> 
