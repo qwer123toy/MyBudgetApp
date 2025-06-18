@@ -3,10 +3,11 @@
 
 ## 📱 앱 소개
 <div align="center">
-  <img src="/screenshot/01.jpg">
-  <img src="/screenshot/02.jpg" >
-    <img src="/screenshot/03.jpg" >
-      <img src="/screenshot/04.jpg" >
+  <img src="/screenshot/01.jpg" style="width : 400px; height : 900px;">
+  <img src="/screenshot/02.jpg" style="width : 400px; height : 900px;">
+  <br>
+    <img src="/screenshot/03.jpg" style="width : 400px; height : 900px;">
+      <img src="/screenshot/04.jpg" style="width : 400px; height : 900px;">
 </div>
 MyBudgetApp은 **귀여운 디자인**과 **기본적인 가계부 기능**을 결합한 Android 가계부 앱입니다. 
 이모지와 파스텔 색상으로 디자인되어 사용하기 즐겁고, 다양한 통계와 필터 기능으로 가계 관리가 편리합니다.
