@@ -166,7 +166,7 @@ cd MyBudgetApp
 ## 👨‍💻 개발자
 
 **이지맨**
-- GitHub : [qwer123toy](https ://github.com/qwer123toy)
+- GitHub : [qwer123toy](https://github.com/qwer123toy)
 
 ---
 
