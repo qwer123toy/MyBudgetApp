@@ -1,5 +1,4 @@
 #  MyBudgetApp - 가계부 앱
-> 개발자 : 이지맨 | 버전 : 1.0.2
 
 ##  앱 소개
 <div align="center">
