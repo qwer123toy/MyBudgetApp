@@ -1,7 +1,7 @@
 #  MyBudgetApp - 가계부 앱
 > 개발자 : 이지맨 | 버전 : 1.0.2
 
-## 📱 앱 소개
+##  앱 소개
 <div align="center">
   <img src="/screenshot/01.jpg" style="width : 400px; height : 900px;">
   <img src="/screenshot/02.jpg" style="width : 400px; height : 900px;">
