@@ -92,11 +92,11 @@ MyBudgetApp은 **귀여운 디자인**과 **기본적인 가계부 기능**을 �
 - **Storage** : SharedPreferences (예산 관리)
 - **Build** : Gradle
 
-## 📦 설치 방법
+##  설치 방법
 
 **APK 다운로드** : 곧 플레이스토어 출시 예정
 
-## 🚀 빌드 방법
+##  빌드 방법
 
 ```bash
 # 프로젝트 클론
@@ -110,7 +110,7 @@ cd MyBudgetApp
 ./gradlew assembleRelease
 ```
 
-## 📝 사용법
+## 사용법
 
 ### 첫 거래 등록
 1. **거래추가** 탭 선택
@@ -169,7 +169,7 @@ cd MyBudgetApp
 
 이 프로젝트는 개인 학습 목적으로 제작되었습니다.
 
-## 👨‍💻 개발자
+##  개발자
 
 **이지맨**
 - GitHub : [qwer123toy](https://github.com/qwer123toy)
